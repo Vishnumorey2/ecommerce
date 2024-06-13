@@ -80,3 +80,21 @@
     border-radius: 50%;
 }
 
+
+@media only screen and (max-width:600px){
+    .nav-bar{
+        display:flex;
+        justify-content: space-evenly;
+        width:100%;
+    }
+
+    .nav-menu{
+        gap:8px;
+    }
+
+    .nav-login button{
+        height:40px;
+        width:70px;
+    }
+}
+

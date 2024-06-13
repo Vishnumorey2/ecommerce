@@ -17,3 +17,12 @@
    gap:20px;
   margin-top: 50px;
 }
+
+
+@media only screen and (max-width:600px){
+
+    .collection{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}

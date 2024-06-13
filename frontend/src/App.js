@@ -26,7 +26,6 @@ function App() {
       <Route path="/login" element={<LoginSignup />}/>
       <Route path="/cart" element={<Cart />}/>
    </Routes>
-   <Footer/>
    </BrowserRouter>
   
    </>
